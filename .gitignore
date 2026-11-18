@@ -1,0 +1,7 @@
+.taste-skill/
+shots/
+node_modules/
+.DS_Store
+
+.agents
+skills-lock.json
