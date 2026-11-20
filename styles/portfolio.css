@@ -307,6 +307,7 @@ textarea {
 /* ---------------------------------------------------------------- Section 3: Featured Projects */
 #projetos .panel {
   --p-h: 256px;
+  flex: 0 0 var(--p-h);
 }
 
 #projetos .panel--flush {
@@ -315,9 +316,15 @@ textarea {
 
 .project-links {
   display: flex;
-  flex-wrap: wrap;
-  gap: var(--s-4);
-  margin-top: var(--s-4);
+  gap: 0.625rem;
+  margin-top: auto;
+  padding-top: var(--s-4);
+  font-size: 0.8125rem;
+  white-space: nowrap;
+}
+
+.project-links .link {
+  gap: 0.25rem;
 }
 
 #projetos .panel--shot {
@@ -476,6 +483,17 @@ textarea {
   flex-direction: column;
   gap: var(--s-4);
   margin-top: var(--s-4);
+}
+
+@media (min-width: 1280px) {
+  #habilidades {
+    height: auto;
+    min-height: 100svh;
+  }
+
+  #habilidades > .wrap {
+    height: auto;
+  }
 }
 
 .stack-diagram-frame {

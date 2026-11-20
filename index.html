@@ -2,6 +2,7 @@
 <html
   lang="pt-BR"
   data-type="software"
+  data-tone="dark"
   data-radius="soft"
   data-ground="sage"
   data-buttons="solid"
@@ -141,7 +142,7 @@
                     ></a
                   >
                   <a href="#projeto-bugbank"
-                    >BugBank<span>Automação E2E Cypress 14 com POM</span></a
+                    >BugBank<span>Testes E2E com Cypress e Cucumber</span></a
                   >
                   <a href="#projeto-zombieplus"
                     >ZombiePlus<span
@@ -468,8 +469,8 @@
                       </li>
                       <li class="ui-win__row" data-row>
                         <span class="ui-avatar" data-tone="5">CY</span
-                        ><span class="ui-win__who">cadastro.cy.js</span
-                        ><span class="ui-win__sub">Cypress 14 · 6 cenários</span
+                        ><span class="ui-win__who">BugBank</span
+                        ><span class="ui-win__sub">Cypress · 7 casos BDD</span
                         ><span class="ui-win__st is-done" data-st>Passed</span
                         ><span class="ui-win__age">BB</span>
                       </li>
@@ -709,7 +710,7 @@
                   href="https://entonymaxwell01.github.io/testes-projeto-tcc/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  >Ver relatório Allure</a
+                  >Ver relatório de testes</a
                 >
                 <a
                   class="link"
@@ -735,19 +736,18 @@
 
             <!-- Card 02: BugBank -->
             <article class="card card--row span-4" id="projeto-bugbank">
-              <h3>BugBank · Cadastro com Cypress</h3>
+              <h3>BugBank · Automação de testes E2E</h3>
               <p>
-                Validação do fluxo de cadastro em Page Object Model, dados
-                dinâmicos com Faker.js, Cypress Grep, Mochawesome, Allure e
-                GitHub Actions.
+                Testes da aplicação bancária BugBank com Cypress e TypeScript,
+                cenários BDD em português com Cucumber e relatórios Allure.
               </p>
               <div class="project-links">
                 <a
                   class="link"
-                  href="https://github.com/entonymaxwell01/testes-bugbank-cypress/actions"
+                  href="https://entonymaxwell01.github.io/testes-bugbank-cypress/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  >Ver execuções de teste</a
+                  >Ver relatório de testes</a
                 >
                 <a
                   class="link"
@@ -768,7 +768,7 @@
                       --ay-sm: 16px;
                     "
                     role="img"
-                    aria-label="Demonstração da suíte de cadastro do BugBank no Cypress"
+                    aria-label="Etapas da integração contínua do BugBank no GitHub Actions"
                   >
                     <div class="ui ui-panel ui-term" data-ui="terminal-run">
                       <div class="ui-term__head">
@@ -790,7 +790,7 @@
                             <span class="ui-term__cwd">~/bugbank</span
                             ><span class="ui-term__sig">$</span
                             ><span class="ui-term__typed" data-term-cmd
-                              >npm test</span
+                              >git push origin main</span
                             >
                           </div>
                           <div
@@ -801,7 +801,7 @@
                             <span class="ui-term__bar" style="--p: 1"
                               ><i></i></span
                             ><span class="ui-term__count" data-term-count
-                              >6 cenários ativos</span
+                              >Pipeline de testes</span
                             >
                           </div>
                           <div
@@ -816,7 +816,7 @@
                             >
                               <path d="m3.5 8.4 2.8 2.8 6.2-6.4" /></svg
                             ><span class="ui-term__path"
-                              >Cadastro com sucesso</span
+                              >Verificação de tipos</span
                             ><span class="ui-term__t">passed</span>
                           </div>
                           <div
@@ -831,7 +831,7 @@
                             >
                               <path d="m3.5 8.4 2.8 2.8 6.2-6.4" /></svg
                             ><span class="ui-term__path"
-                              >Sem e-mail / nome / senha</span
+                              >ESLint</span
                             ><span class="ui-term__t">passed</span>
                           </div>
                           <div
@@ -846,7 +846,7 @@
                             >
                               <path d="m3.5 8.4 2.8 2.8 6.2-6.4" /></svg
                             ><span class="ui-term__path"
-                              >Senhas divergentes</span
+                              >Testes E2E no Chrome</span
                             ><span class="ui-term__t">passed</span>
                           </div>
                           <div
@@ -857,7 +857,7 @@
                             <span class="ui-term__ok"
                               ><svg viewBox="0 0 16 16" aria-hidden="true">
                                 <path d="m4.5 8.3 2.4 2.4 4.6-5" /></svg></span
-                            ><b>Allure &amp; Mochawesome</b
+                            ><b>Relatório Allure</b
                             ><span class="ui-term__dim">gh-pages</span>
                           </div>
                         </div>
